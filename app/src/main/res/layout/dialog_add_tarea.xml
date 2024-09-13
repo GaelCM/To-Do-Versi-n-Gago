@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    android:padding="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <EditText
+            android:id="@+id/newTarea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nueva Tarea"
+            android:textColorHint="@color/blueTec"
+            android:backgroundTint="@color/blueTec"
+            >
+        </EditText>
+
+        <RadioGroup
+            android:id="@+id/categoriaSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/trabajoCategoria"
+                android:textColor="@color/blueTec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/trabajoKey"
+                android:checked="true"
+                >
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/escuelaCategoria"
+                android:textColor="@color/blueTec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/escuelaKey"
+                >
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/socialCategoria"
+                android:textColor="@color/blueTec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/socialKey"
+                >
+            </RadioButton>
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/saveTareaBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/blueTec"
+            android:text="Guardar Tarea"
+            >
+
+        </Button>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

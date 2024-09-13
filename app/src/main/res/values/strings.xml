@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TodoList_Propio</string>
+    <string name="escuelaKey">Escuela</string>
+    <string name="trabajoKey">Trabajo</string>
+    <string name="socialKey">Social</string>
+
+
+</resources>

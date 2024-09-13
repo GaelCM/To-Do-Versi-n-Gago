@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gris">#B4B4B4</color>
+    <color name="blueTec">#1b396a</color>
+    <color name="bg">#f4f1e5</color>
+    <color name="escuela">#FF0000</color>
+    <color name="trabajo">#0E8A00</color>
+    <color name="social">#FFCC00</color>
+</resources>

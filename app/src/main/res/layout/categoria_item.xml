@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/categoriaItem"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginVertical="10dp"
+    android:layout_marginHorizontal="10dp"
+    app:cardCornerRadius="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="15dp"
+        >
+
+        <TextView
+            android:id="@+id/categoriaTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Escuela"
+            android:textSize="15dp"
+            android:textColor="@color/blueTec"
+            android:textStyle="bold"
+            android:padding="5dp"
+            ></TextView>
+
+        <View
+            android:id="@+id/categoriaColor"
+            android:layout_width="80dp"
+            android:layout_height="3dp"
+            android:background="@color/escuela"
+
+            ></View>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
